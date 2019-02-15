@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './screens/App/App';
 import * as serviceWorker from './serviceWorker';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from './styles/styled-components';
 import { BrowserRouter } from 'react-router-dom';
 
 // Themes
-import { themePrimary } from './styles/themes';
+import { themePrimary } from './styles/themePrimary';
 
 ReactDOM.render(
     <ThemeProvider theme={themePrimary}>
